@@ -39,3 +39,4 @@ describe('This is first test suite', () => {
         cy.get('#success_message').should('have.css', 'display', 'block')
     });
 })
+
